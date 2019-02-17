@@ -81,7 +81,8 @@ use app\components\ReclaWidget;
             <div class="col-sm-3">
                 <div class="left-sidebar">
 
-                    <ul class="catalog">
+                    <ul class="catalog category-products">
+                        <h2>Категории</h2>
                         <?= MenuWidget::widget(['tpl' => 'menu']) ?>
                     </ul>
 
