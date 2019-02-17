@@ -1,3 +1,9 @@
+<?php
+echo '<pre>';
+print_r($data);
+echo '</pre>';
+?>
+
 <h2>Category</h2>
 <div class="panel-group category-products" id="accordian">
     <div class="panel panel-default">

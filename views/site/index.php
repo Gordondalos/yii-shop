@@ -1,8 +1,10 @@
 <?php
-use app\components\MenuWidget;
+
 use app\components\BrandWidget;
+use app\components\MenuWidget;
 use app\components\RangeWidget;
 use app\components\ReclaWidget;
+
 ?>
 
 <section id="slider"><!--slider-->
@@ -21,24 +23,26 @@ use app\components\ReclaWidget;
                             <div class="col-sm-6">
                                 <h1><span>E</span>-SHOPPER</h1>
                                 <h2>Free E-Commerce Template</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. </p>
                                 <button type="button" class="btn btn-default get">Get it now</button>
                             </div>
                             <div class="col-sm-6">
-                                <img src="/images/home/girl1.jpg" class="girl img-responsive" alt="" />
-                                <img src="/images/home/pricing.png"  class="pricing" alt="" />
+                                <img src="/images/home/girl1.jpg" class="girl img-responsive" alt=""/>
+                                <img src="/images/home/pricing.png" class="pricing" alt=""/>
                             </div>
                         </div>
                         <div class="item">
                             <div class="col-sm-6">
                                 <h1><span>E</span>-SHOPPER</h1>
                                 <h2>100% Responsive Design</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. </p>
                                 <button type="button" class="btn btn-default get">Get it now</button>
                             </div>
                             <div class="col-sm-6">
-                                <img src="/images/home/girl2.jpg" class="girl img-responsive" alt="" />
-                                <img src="/images/home/pricing.png"  class="pricing" alt="" />
+                                <img src="/images/home/girl2.jpg" class="girl img-responsive" alt=""/>
+                                <img src="/images/home/pricing.png" class="pricing" alt=""/>
                             </div>
                         </div>
 
@@ -46,12 +50,13 @@ use app\components\ReclaWidget;
                             <div class="col-sm-6">
                                 <h1><span>E</span>-SHOPPER</h1>
                                 <h2>Free Ecommerce Template</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. </p>
                                 <button type="button" class="btn btn-default get">Get it now</button>
                             </div>
                             <div class="col-sm-6">
-                                <img src="/images/home/girl3.jpg" class="girl img-responsive" alt="" />
-                                <img src="/images/home/pricing.png" class="pricing" alt="" />
+                                <img src="/images/home/girl3.jpg" class="girl img-responsive" alt=""/>
+                                <img src="/images/home/pricing.png" class="pricing" alt=""/>
                             </div>
                         </div>
 
@@ -76,10 +81,13 @@ use app\components\ReclaWidget;
             <div class="col-sm-3">
                 <div class="left-sidebar">
 
-                <?= MenuWidget::widget(['tpl'=> 'menu']) ?>
-                <?= BrandWidget::widget() ?>
-                <?= RangeWidget::widget() ?>
-                <?= ReclaWidget::widget() ?>
+                    <ul class="catalog">
+                        <?= MenuWidget::widget(['tpl' => 'menu']) ?>
+                    </ul>
+
+                    <?= BrandWidget::widget() ?>
+                    <?= RangeWidget::widget() ?>
+                    <?= ReclaWidget::widget() ?>
 
                 </div>
             </div>
@@ -91,16 +99,18 @@ use app\components\ReclaWidget;
                         <div class="product-image-wrapper">
                             <div class="single-products">
                                 <div class="productinfo text-center">
-                                    <img src="/images/home/product1.jpg" alt="" />
+                                    <img src="/images/home/product1.jpg" alt=""/>
                                     <h2>$56</h2>
                                     <p>Easy Polo Black Edition</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add
+                                        to cart</a>
                                 </div>
                                 <div class="product-overlay">
                                     <div class="overlay-content">
                                         <h2>$56</h2>
                                         <p>Easy Polo Black Edition</p>
-                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                        <a href="#" class="btn btn-default add-to-cart"><i
+                                                    class="fa fa-shopping-cart"></i>Add to cart</a>
                                     </div>
                                 </div>
                             </div>
@@ -116,16 +126,18 @@ use app\components\ReclaWidget;
                         <div class="product-image-wrapper">
                             <div class="single-products">
                                 <div class="productinfo text-center">
-                                    <img src="/images/home/product2.jpg" alt="" />
+                                    <img src="/images/home/product2.jpg" alt=""/>
                                     <h2>$56</h2>
                                     <p>Easy Polo Black Edition</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add
+                                        to cart</a>
                                 </div>
                                 <div class="product-overlay">
                                     <div class="overlay-content">
                                         <h2>$56</h2>
                                         <p>Easy Polo Black Edition</p>
-                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                        <a href="#" class="btn btn-default add-to-cart"><i
+                                                    class="fa fa-shopping-cart"></i>Add to cart</a>
                                     </div>
                                 </div>
                             </div>
@@ -141,16 +153,18 @@ use app\components\ReclaWidget;
                         <div class="product-image-wrapper">
                             <div class="single-products">
                                 <div class="productinfo text-center">
-                                    <img src="/images/home/product3.jpg" alt="" />
+                                    <img src="/images/home/product3.jpg" alt=""/>
                                     <h2>$56</h2>
                                     <p>Easy Polo Black Edition</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add
+                                        to cart</a>
                                 </div>
                                 <div class="product-overlay">
                                     <div class="overlay-content">
                                         <h2>$56</h2>
                                         <p>Easy Polo Black Edition</p>
-                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                        <a href="#" class="btn btn-default add-to-cart"><i
+                                                    class="fa fa-shopping-cart"></i>Add to cart</a>
                                     </div>
                                 </div>
                             </div>
@@ -166,19 +180,21 @@ use app\components\ReclaWidget;
                         <div class="product-image-wrapper">
                             <div class="single-products">
                                 <div class="productinfo text-center">
-                                    <img src="/images/home/product4.jpg" alt="" />
+                                    <img src="/images/home/product4.jpg" alt=""/>
                                     <h2>$56</h2>
                                     <p>Easy Polo Black Edition</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add
+                                        to cart</a>
                                 </div>
                                 <div class="product-overlay">
                                     <div class="overlay-content">
                                         <h2>$56</h2>
                                         <p>Easy Polo Black Edition</p>
-                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                        <a href="#" class="btn btn-default add-to-cart"><i
+                                                    class="fa fa-shopping-cart"></i>Add to cart</a>
                                     </div>
                                 </div>
-                                <img src="/images/home/new.png" class="new" alt="" />
+                                <img src="/images/home/new.png" class="new" alt=""/>
                             </div>
                             <div class="choose">
                                 <ul class="nav nav-pills nav-justified">
@@ -192,19 +208,21 @@ use app\components\ReclaWidget;
                         <div class="product-image-wrapper">
                             <div class="single-products">
                                 <div class="productinfo text-center">
-                                    <img src="/images/home/product5.jpg" alt="" />
+                                    <img src="/images/home/product5.jpg" alt=""/>
                                     <h2>$56</h2>
                                     <p>Easy Polo Black Edition</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add
+                                        to cart</a>
                                 </div>
                                 <div class="product-overlay">
                                     <div class="overlay-content">
                                         <h2>$56</h2>
                                         <p>Easy Polo Black Edition</p>
-                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                        <a href="#" class="btn btn-default add-to-cart"><i
+                                                    class="fa fa-shopping-cart"></i>Add to cart</a>
                                     </div>
                                 </div>
-                                <img src="/images/home/sale.png" class="new" alt="" />
+                                <img src="/images/home/sale.png" class="new" alt=""/>
                             </div>
                             <div class="choose">
                                 <ul class="nav nav-pills nav-justified">
@@ -218,16 +236,18 @@ use app\components\ReclaWidget;
                         <div class="product-image-wrapper">
                             <div class="single-products">
                                 <div class="productinfo text-center">
-                                    <img src="/images/home/product6.jpg" alt="" />
+                                    <img src="/images/home/product6.jpg" alt=""/>
                                     <h2>$56</h2>
                                     <p>Easy Polo Black Edition</p>
-                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add
+                                        to cart</a>
                                 </div>
                                 <div class="product-overlay">
                                     <div class="overlay-content">
                                         <h2>$56</h2>
                                         <p>Easy Polo Black Edition</p>
-                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                        <a href="#" class="btn btn-default add-to-cart"><i
+                                                    class="fa fa-shopping-cart"></i>Add to cart</a>
                                     </div>
                                 </div>
                             </div>
@@ -253,15 +273,16 @@ use app\components\ReclaWidget;
                         </ul>
                     </div>
                     <div class="tab-content">
-                        <div class="tab-pane fade active in" id="tshirt" >
+                        <div class="tab-pane fade active in" id="tshirt">
                             <div class="col-sm-3">
                                 <div class="product-image-wrapper">
                                     <div class="single-products">
                                         <div class="productinfo text-center">
-                                            <img src="/images/home/gallery1.jpg" alt="" />
+                                            <img src="/images/home/gallery1.jpg" alt=""/>
                                             <h2>$56</h2>
                                             <p>Easy Polo Black Edition</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                            <a href="#" class="btn btn-default add-to-cart"><i
+                                                        class="fa fa-shopping-cart"></i>Add to cart</a>
                                         </div>
 
                                     </div>
@@ -271,10 +292,11 @@ use app\components\ReclaWidget;
                                 <div class="product-image-wrapper">
                                     <div class="single-products">
                                         <div class="productinfo text-center">
-                                            <img src="/images/home/gallery2.jpg" alt="" />
+                                            <img src="/images/home/gallery2.jpg" alt=""/>
                                             <h2>$56</h2>
                                             <p>Easy Polo Black Edition</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                            <a href="#" class="btn btn-default add-to-cart"><i
+                                                        class="fa fa-shopping-cart"></i>Add to cart</a>
                                         </div>
 
                                     </div>
@@ -284,10 +306,11 @@ use app\components\ReclaWidget;
                                 <div class="product-image-wrapper">
                                     <div class="single-products">
                                         <div class="productinfo text-center">
-                                            <img src="/images/home/gallery3.jpg" alt="" />
+                                            <img src="/images/home/gallery3.jpg" alt=""/>
                                             <h2>$56</h2>
                                             <p>Easy Polo Black Edition</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                            <a href="#" class="btn btn-default add-to-cart"><i
+                                                        class="fa fa-shopping-cart"></i>Add to cart</a>
                                         </div>
 
                                     </div>
@@ -297,65 +320,11 @@ use app\components\ReclaWidget;
                                 <div class="product-image-wrapper">
                                     <div class="single-products">
                                         <div class="productinfo text-center">
-                                            <img src="/images/home/gallery4.jpg" alt="" />
+                                            <img src="/images/home/gallery4.jpg" alt=""/>
                                             <h2>$56</h2>
                                             <p>Easy Polo Black Edition</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tab-pane fade" id="blazers" >
-                            <div class="col-sm-3">
-                                <div class="product-image-wrapper">
-                                    <div class="single-products">
-                                        <div class="productinfo text-center">
-                                            <img src="/images/home/gallery4.jpg" alt="" />
-                                            <h2>$56</h2>
-                                            <p>Easy Polo Black Edition</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-3">
-                                <div class="product-image-wrapper">
-                                    <div class="single-products">
-                                        <div class="productinfo text-center">
-                                            <img src="/images/home/gallery3.jpg" alt="" />
-                                            <h2>$56</h2>
-                                            <p>Easy Polo Black Edition</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-3">
-                                <div class="product-image-wrapper">
-                                    <div class="single-products">
-                                        <div class="productinfo text-center">
-                                            <img src="/images/home/gallery2.jpg" alt="" />
-                                            <h2>$56</h2>
-                                            <p>Easy Polo Black Edition</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-3">
-                                <div class="product-image-wrapper">
-                                    <div class="single-products">
-                                        <div class="productinfo text-center">
-                                            <img src="/images/home/gallery1.jpg" alt="" />
-                                            <h2>$56</h2>
-                                            <p>Easy Polo Black Edition</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                            <a href="#" class="btn btn-default add-to-cart"><i
+                                                        class="fa fa-shopping-cart"></i>Add to cart</a>
                                         </div>
 
                                     </div>
@@ -363,15 +332,16 @@ use app\components\ReclaWidget;
                             </div>
                         </div>
 
-                        <div class="tab-pane fade" id="sunglass" >
+                        <div class="tab-pane fade" id="blazers">
                             <div class="col-sm-3">
                                 <div class="product-image-wrapper">
                                     <div class="single-products">
                                         <div class="productinfo text-center">
-                                            <img src="/images/home/gallery3.jpg" alt="" />
+                                            <img src="/images/home/gallery4.jpg" alt=""/>
                                             <h2>$56</h2>
                                             <p>Easy Polo Black Edition</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                            <a href="#" class="btn btn-default add-to-cart"><i
+                                                        class="fa fa-shopping-cart"></i>Add to cart</a>
                                         </div>
 
                                     </div>
@@ -381,10 +351,11 @@ use app\components\ReclaWidget;
                                 <div class="product-image-wrapper">
                                     <div class="single-products">
                                         <div class="productinfo text-center">
-                                            <img src="/images/home/gallery4.jpg" alt="" />
+                                            <img src="/images/home/gallery3.jpg" alt=""/>
                                             <h2>$56</h2>
                                             <p>Easy Polo Black Edition</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                            <a href="#" class="btn btn-default add-to-cart"><i
+                                                        class="fa fa-shopping-cart"></i>Add to cart</a>
                                         </div>
 
                                     </div>
@@ -394,10 +365,11 @@ use app\components\ReclaWidget;
                                 <div class="product-image-wrapper">
                                     <div class="single-products">
                                         <div class="productinfo text-center">
-                                            <img src="/images/home/gallery1.jpg" alt="" />
+                                            <img src="/images/home/gallery2.jpg" alt=""/>
                                             <h2>$56</h2>
                                             <p>Easy Polo Black Edition</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                            <a href="#" class="btn btn-default add-to-cart"><i
+                                                        class="fa fa-shopping-cart"></i>Add to cart</a>
                                         </div>
 
                                     </div>
@@ -407,65 +379,11 @@ use app\components\ReclaWidget;
                                 <div class="product-image-wrapper">
                                     <div class="single-products">
                                         <div class="productinfo text-center">
-                                            <img src="/images/home/gallery2.jpg" alt="" />
+                                            <img src="/images/home/gallery1.jpg" alt=""/>
                                             <h2>$56</h2>
                                             <p>Easy Polo Black Edition</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tab-pane fade" id="kids" >
-                            <div class="col-sm-3">
-                                <div class="product-image-wrapper">
-                                    <div class="single-products">
-                                        <div class="productinfo text-center">
-                                            <img src="/images/home/gallery1.jpg" alt="" />
-                                            <h2>$56</h2>
-                                            <p>Easy Polo Black Edition</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-3">
-                                <div class="product-image-wrapper">
-                                    <div class="single-products">
-                                        <div class="productinfo text-center">
-                                            <img src="/images/home/gallery2.jpg" alt="" />
-                                            <h2>$56</h2>
-                                            <p>Easy Polo Black Edition</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-3">
-                                <div class="product-image-wrapper">
-                                    <div class="single-products">
-                                        <div class="productinfo text-center">
-                                            <img src="/images/home/gallery3.jpg" alt="" />
-                                            <h2>$56</h2>
-                                            <p>Easy Polo Black Edition</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-3">
-                                <div class="product-image-wrapper">
-                                    <div class="single-products">
-                                        <div class="productinfo text-center">
-                                            <img src="/images/home/gallery4.jpg" alt="" />
-                                            <h2>$56</h2>
-                                            <p>Easy Polo Black Edition</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                            <a href="#" class="btn btn-default add-to-cart"><i
+                                                        class="fa fa-shopping-cart"></i>Add to cart</a>
                                         </div>
 
                                     </div>
@@ -473,15 +391,16 @@ use app\components\ReclaWidget;
                             </div>
                         </div>
 
-                        <div class="tab-pane fade" id="poloshirt" >
+                        <div class="tab-pane fade" id="sunglass">
                             <div class="col-sm-3">
                                 <div class="product-image-wrapper">
                                     <div class="single-products">
                                         <div class="productinfo text-center">
-                                            <img src="/images/home/gallery2.jpg" alt="" />
+                                            <img src="/images/home/gallery3.jpg" alt=""/>
                                             <h2>$56</h2>
                                             <p>Easy Polo Black Edition</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                            <a href="#" class="btn btn-default add-to-cart"><i
+                                                        class="fa fa-shopping-cart"></i>Add to cart</a>
                                         </div>
 
                                     </div>
@@ -491,10 +410,11 @@ use app\components\ReclaWidget;
                                 <div class="product-image-wrapper">
                                     <div class="single-products">
                                         <div class="productinfo text-center">
-                                            <img src="/images/home/gallery4.jpg" alt="" />
+                                            <img src="/images/home/gallery4.jpg" alt=""/>
                                             <h2>$56</h2>
                                             <p>Easy Polo Black Edition</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                            <a href="#" class="btn btn-default add-to-cart"><i
+                                                        class="fa fa-shopping-cart"></i>Add to cart</a>
                                         </div>
 
                                     </div>
@@ -504,10 +424,11 @@ use app\components\ReclaWidget;
                                 <div class="product-image-wrapper">
                                     <div class="single-products">
                                         <div class="productinfo text-center">
-                                            <img src="/images/home/gallery3.jpg" alt="" />
+                                            <img src="/images/home/gallery1.jpg" alt=""/>
                                             <h2>$56</h2>
                                             <p>Easy Polo Black Edition</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                            <a href="#" class="btn btn-default add-to-cart"><i
+                                                        class="fa fa-shopping-cart"></i>Add to cart</a>
                                         </div>
 
                                     </div>
@@ -517,10 +438,129 @@ use app\components\ReclaWidget;
                                 <div class="product-image-wrapper">
                                     <div class="single-products">
                                         <div class="productinfo text-center">
-                                            <img src="/images/home/gallery1.jpg" alt="" />
+                                            <img src="/images/home/gallery2.jpg" alt=""/>
                                             <h2>$56</h2>
                                             <p>Easy Polo Black Edition</p>
-                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                            <a href="#" class="btn btn-default add-to-cart"><i
+                                                        class="fa fa-shopping-cart"></i>Add to cart</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="kids">
+                            <div class="col-sm-3">
+                                <div class="product-image-wrapper">
+                                    <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="/images/home/gallery1.jpg" alt=""/>
+                                            <h2>$56</h2>
+                                            <p>Easy Polo Black Edition</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i
+                                                        class="fa fa-shopping-cart"></i>Add to cart</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="product-image-wrapper">
+                                    <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="/images/home/gallery2.jpg" alt=""/>
+                                            <h2>$56</h2>
+                                            <p>Easy Polo Black Edition</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i
+                                                        class="fa fa-shopping-cart"></i>Add to cart</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="product-image-wrapper">
+                                    <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="/images/home/gallery3.jpg" alt=""/>
+                                            <h2>$56</h2>
+                                            <p>Easy Polo Black Edition</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i
+                                                        class="fa fa-shopping-cart"></i>Add to cart</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="product-image-wrapper">
+                                    <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="/images/home/gallery4.jpg" alt=""/>
+                                            <h2>$56</h2>
+                                            <p>Easy Polo Black Edition</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i
+                                                        class="fa fa-shopping-cart"></i>Add to cart</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="poloshirt">
+                            <div class="col-sm-3">
+                                <div class="product-image-wrapper">
+                                    <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="/images/home/gallery2.jpg" alt=""/>
+                                            <h2>$56</h2>
+                                            <p>Easy Polo Black Edition</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i
+                                                        class="fa fa-shopping-cart"></i>Add to cart</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="product-image-wrapper">
+                                    <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="/images/home/gallery4.jpg" alt=""/>
+                                            <h2>$56</h2>
+                                            <p>Easy Polo Black Edition</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i
+                                                        class="fa fa-shopping-cart"></i>Add to cart</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="product-image-wrapper">
+                                    <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="/images/home/gallery3.jpg" alt=""/>
+                                            <h2>$56</h2>
+                                            <p>Easy Polo Black Edition</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i
+                                                        class="fa fa-shopping-cart"></i>Add to cart</a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="product-image-wrapper">
+                                    <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="/images/home/gallery1.jpg" alt=""/>
+                                            <h2>$56</h2>
+                                            <p>Easy Polo Black Edition</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i
+                                                        class="fa fa-shopping-cart"></i>Add to cart</a>
                                         </div>
 
                                     </div>
@@ -540,10 +580,11 @@ use app\components\ReclaWidget;
                                     <div class="product-image-wrapper">
                                         <div class="single-products">
                                             <div class="productinfo text-center">
-                                                <img src="/images/home/recommend1.jpg" alt="" />
+                                                <img src="/images/home/recommend1.jpg" alt=""/>
                                                 <h2>$56</h2>
                                                 <p>Easy Polo Black Edition</p>
-                                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                <a href="#" class="btn btn-default add-to-cart"><i
+                                                            class="fa fa-shopping-cart"></i>Add to cart</a>
                                             </div>
 
                                         </div>
@@ -553,10 +594,11 @@ use app\components\ReclaWidget;
                                     <div class="product-image-wrapper">
                                         <div class="single-products">
                                             <div class="productinfo text-center">
-                                                <img src="/images/home/recommend2.jpg" alt="" />
+                                                <img src="/images/home/recommend2.jpg" alt=""/>
                                                 <h2>$56</h2>
                                                 <p>Easy Polo Black Edition</p>
-                                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                <a href="#" class="btn btn-default add-to-cart"><i
+                                                            class="fa fa-shopping-cart"></i>Add to cart</a>
                                             </div>
 
                                         </div>
@@ -566,10 +608,11 @@ use app\components\ReclaWidget;
                                     <div class="product-image-wrapper">
                                         <div class="single-products">
                                             <div class="productinfo text-center">
-                                                <img src="/images/home/recommend3.jpg" alt="" />
+                                                <img src="/images/home/recommend3.jpg" alt=""/>
                                                 <h2>$56</h2>
                                                 <p>Easy Polo Black Edition</p>
-                                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                <a href="#" class="btn btn-default add-to-cart"><i
+                                                            class="fa fa-shopping-cart"></i>Add to cart</a>
                                             </div>
 
                                         </div>
@@ -581,10 +624,11 @@ use app\components\ReclaWidget;
                                     <div class="product-image-wrapper">
                                         <div class="single-products">
                                             <div class="productinfo text-center">
-                                                <img src="/images/home/recommend1.jpg" alt="" />
+                                                <img src="/images/home/recommend1.jpg" alt=""/>
                                                 <h2>$56</h2>
                                                 <p>Easy Polo Black Edition</p>
-                                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                <a href="#" class="btn btn-default add-to-cart"><i
+                                                            class="fa fa-shopping-cart"></i>Add to cart</a>
                                             </div>
 
                                         </div>
@@ -594,10 +638,11 @@ use app\components\ReclaWidget;
                                     <div class="product-image-wrapper">
                                         <div class="single-products">
                                             <div class="productinfo text-center">
-                                                <img src="/images/home/recommend2.jpg" alt="" />
+                                                <img src="/images/home/recommend2.jpg" alt=""/>
                                                 <h2>$56</h2>
                                                 <p>Easy Polo Black Edition</p>
-                                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                <a href="#" class="btn btn-default add-to-cart"><i
+                                                            class="fa fa-shopping-cart"></i>Add to cart</a>
                                             </div>
 
                                         </div>
@@ -607,10 +652,11 @@ use app\components\ReclaWidget;
                                     <div class="product-image-wrapper">
                                         <div class="single-products">
                                             <div class="productinfo text-center">
-                                                <img src="/images/home/recommend3.jpg" alt="" />
+                                                <img src="/images/home/recommend3.jpg" alt=""/>
                                                 <h2>$56</h2>
                                                 <p>Easy Polo Black Edition</p>
-                                                <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                                <a href="#" class="btn btn-default add-to-cart"><i
+                                                            class="fa fa-shopping-cart"></i>Add to cart</a>
                                             </div>
 
                                         </div>
