@@ -786,6 +786,7 @@ ul.category-products {
     margin-top: 30px;
 }
 
+
 .well {
     background-color: #FFFFFF;
     border: none;
@@ -843,11 +844,18 @@ h2.title {
     position: relative;
 }
 
-.new, .sale {
+.new {
     position: absolute;
     top: 0;
     right: 0;
 }
+.sale {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(-90deg);
+}
+
 
 .productinfo h2 {
     color: #FE980F;
