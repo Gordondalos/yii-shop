@@ -1,11 +1,10 @@
 <?php
 
-use app\components\BrandWidget;
-use app\components\MenuWidget;
-use app\components\RangeWidget;
-use app\components\ReclaWidget;
+use app\components\SidebarWidget;
+use app\components\FutureWidget;
 use yii\helpers\Html;
 
+$this->title = 'Welcome';
 ?>
 
 <section id="slider"><!--slider-->
@@ -80,82 +79,13 @@ use yii\helpers\Html;
     <div class="container">
         <div class="row">
             <div class="col-sm-3">
-                <div class="left-sidebar">
+             <?= SidebarWidget::widget() ?>
 
-                    <ul class="catalog category-products">
-                        <h2>Категории</h2>
-                        <?= MenuWidget::widget(['tpl' => 'menu']) ?>
-                    </ul>
-
-                    <?= BrandWidget::widget() ?>
-                    <?= RangeWidget::widget() ?>
-                    <?= ReclaWidget::widget() ?>
-
-                </div>
             </div>
 
             <div class="col-sm-9 padding-right">
-                <div class="features_items"><!--features_items-->
-                    <h2 class="title text-center">Features Items</h2>
 
-                    <?php
-                        if(!empty($hits)):
-                    ?>
-
-                        <?php
-                        foreach ($hits as $key=>$val):
-                            ?>
-
-                            <div class="col-sm-4">
-                                <div class="product-image-wrapper">
-                                    <div class="single-products">
-                                        <div class="productinfo text-center">
-                                            <?= Html::img("@web/images/products/{$val->img}", [
-                                                'alt'=>$val->name
-                                            ]) ?>
-                                            <h2>$<?= $val->price ?></h2>
-                                            <p><?= $val->name?></p>
-                                            <a href="#" class="btn btn-default add-to-cart">
-                                                <i class="fa fa-shopping-cart"></i>
-                                                Add to cart</a>
-                                        </div>
-                                        <div class="product-overlay">
-                                            <div class="overlay-content">
-                                                <h2>$<?= $val->price ?></h2>
-                                                <p><?= $val->name?></p>
-                                                <a href="#" class="btn btn-default add-to-cart">
-                                                    <i class="fa fa-shopping-cart"></i
-                                                    >Add to cart
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <?php
-                                            if($val->sale):
-                                        ?>
-                                            <?= Html::img('@web/images/home/sale.png', ['class'=> 'sale','alt'=> 'Распродажа']) ?>
-                                        <? endif; ?>
-                                        <?php
-                                        if($val->new):
-                                            ?>
-                                            <?= Html::img('@web/images/home/new.png', ['class'=> 'new','alt'=> 'Новинка']) ?>
-                                        <? endif; ?>
-                                    </div>
-                                    <div class="choose">
-                                        <ul class="nav nav-pills nav-justified">
-                                            <li><a href="#"><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
-                                            <li><a href="#"><i class="fa fa-plus-square"></i>Add to compare</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                        <?php endforeach; ?>
-
-
-                    <?php endif; ?>
-
-
-                </div><!--features_items-->
+                <?= FutureWidget::widget(['products'=> $hits, 'title' => 'Новинки'] ) ?>
 
                 <div class="category-tab"><!--category-tab-->
                     <div class="col-sm-12">
@@ -463,7 +393,7 @@ use yii\helpers\Html;
                             </div>
                         </div>
                     </div>
-                </div><!--/category-tab-->
+                </div>
 
                 <div class="recommended_items"><!--recommended_items-->
                     <h2 class="title text-center">recommended items</h2>
