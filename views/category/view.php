@@ -4,7 +4,7 @@ use app\components\AdvertsWidget;
 use app\components\FutureWidget;
 use app\components\SidebarWidget;
 
-$this->title = $category->name;
+//$this->title = $category->name;
 ?>
 
 <?= AdvertsWidget::widget() ?>
@@ -19,7 +19,7 @@ $this->title = $category->name;
             <div class="col-sm-9 padding-right">
                 <div class="features_items"><!--features_items-->
 
-                    <?= FutureWidget::widget(['products' => $products, 'title' => 'Товары ('.$category->name.')']) ?>
+                    <?= FutureWidget::widget(['products' => $products, 'title' => $category->name]) ?>
 
                     <div class="clearfix"></div>
                     <?php if (!empty($products)): ?>

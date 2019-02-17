@@ -15,6 +15,12 @@ use yii\db\ActiveRecord;
  * */
 class Category extends ActiveRecord {
 
+//    public $id;
+//    public $keywords;
+//    public $description;
+//    public $name;
+//    public $parent_id;
+
     public static function tableName() {
         return 'category';
     }
