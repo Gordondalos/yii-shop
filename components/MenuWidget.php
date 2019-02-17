@@ -67,9 +67,6 @@ class MenuWidget extends Widget {
             Yii::$app->cache->set('menu', $this->menuHtml, 60*60*60*24);
             return $this->menuHtml;
         }
-
-
-
     }
 
 
